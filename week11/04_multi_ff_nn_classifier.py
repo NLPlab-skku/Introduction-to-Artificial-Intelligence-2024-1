@@ -1,6 +1,6 @@
 import numpy as np
 from keras.datasets import reuters
-from keras.utils.np_utils import to_categorical
+from keras.utils import to_categorical
 from keras.preprocessing.text import Tokenizer
 from keras import models
 from keras import layers
@@ -12,7 +12,7 @@ np.random.seed(0)
 number_of_features = 5000
 
 # 특성과 타깃 데이터 로드
-data = reuters.load.data(num_words=number_of_features)
+data = reuters.load_data(num_words=number_of_features)
 (data_train, target_vector_train), (data_test, target_vector_test) = data
 
 # 특성 데이터를 원-핫 인코딩된 특성 행렬로 변환
