@@ -5,6 +5,7 @@ from keras.preprocessing.text import Tokenizer
 from keras import models
 from keras import layers
 
+
 # 랜덤 시드 설정
 np.random.seed(0)
 

@@ -2,6 +2,7 @@ import matplotlib as mpl
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 from sklearn.datasets import fetch_openml
 mnist = fetch_openml('mnist_784', version=1, parser = 'auto', as_frame=False)
 print(mnist.keys())

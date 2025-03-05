@@ -3,6 +3,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.preprocessing import StandardScaler
 from sklearn import datasets
 
+
 # 데이터를 로드 합니다.
 iris = datasets.load_iris()
 X = iris.data

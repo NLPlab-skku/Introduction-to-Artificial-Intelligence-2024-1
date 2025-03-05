@@ -2,6 +2,7 @@
 from sklearn.tree import DecisionTreeClassifier
 from sklearn import datasets
 
+
 #데이터를 로드
 iris = datasets.load_iris()
 features = iris.data
